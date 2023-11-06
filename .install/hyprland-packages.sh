@@ -31,8 +31,8 @@ packagesPacman=(
     "papirus-icon-theme"
     "polkit-gnome"
     "hyprland" 
-    "xdg-desktop-portal" 
-    "xdg-desktop-portal-wlr" 
+#    "xdg-desktop-portal" 
+#    "xdg-desktop-portal-wlr" 
     "waybar" 
     "grim" 
     "slurp"
@@ -42,6 +42,10 @@ packagesPacman=(
     "qalculate-gtk"
     "brightnessctl"
     "vivaldi"
+    "curl"
+    "qt5-wayland"
+    "qt6-wayland"
+    "jq"
 );
 
 packagesYay=(
