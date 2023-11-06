@@ -18,7 +18,7 @@ packagesPacman=(
     "ttf-fira-code" 
     "ttf-firacode-nerd" 
     "figlet" 
-    "vlc" 
+#    "vlc" 
     "exa" 
     "python-pip" 
     "python-psutil" 
@@ -41,7 +41,7 @@ packagesPacman=(
     "cliphist"
     "qalculate-gtk"
     "brightnessctl"
-    "
+    "vivaldi"
 );
 
 packagesYay=(
