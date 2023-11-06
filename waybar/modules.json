@@ -139,7 +139,7 @@
     // Browser Launcher
     "custom/browser": {
         "format": "",
-        "on-click": "chromium",
+        "on-click": "vivaldi-stable",
         "tooltip": false
     },    
 
