@@ -9,6 +9,7 @@ fi
 
 # Wallpaper path
 wlpath="$HOME/wallpaper/wallpaper.jpg"
+
 # Lockscreen wallpaper path
 lswlpath="$HOME/wallpaper/lockscreen_wallpaper.jpg"
 output="*"
@@ -51,6 +52,7 @@ cp $wlpath ~/.cache/current_wallpaper.jpg
 # -----------------------------------------------------
 ~/dotfiles/waybar/launch.sh
 
+# set image with swww
 transition_type="wipe"
 # transition_type="outer"
 # transition_type="random"
@@ -61,9 +63,6 @@ swww img $wlpath \
     --transition-type=$transition_type \
     --transition-duration=0.7 \
     --transition-pos "$( hyprctl cursorpos )"
-
-# Set bing image of the day as wallpaper
-#swaymsg "output $output bg $wlpath fill"
 
 # Display image name on bottom right of the wallpaper
 nwg-wrapper -t $HOME/wallpaper/bing_name.txt -c $HOME/dotfiles/scripts/bing_name.css -p right -a end -mb 10 -mr 10 &
