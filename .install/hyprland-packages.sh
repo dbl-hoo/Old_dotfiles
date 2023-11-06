@@ -26,7 +26,7 @@ packagesPacman=(
     "python-click" 
     "pavucontrol" 
     "tumbler" 
-    "xautolock" 
+#    "xautolock" 
     "blueman"
     "papirus-icon-theme"
     "polkit-gnome"
