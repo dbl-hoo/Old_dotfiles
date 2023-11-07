@@ -1,0 +1,11 @@
+[Unit]
+Description=Update Bing Wallpaper
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/home/kirkham/dotfiles/scripts/get_bing_image.sh
+
+[Install]
+WantedBy=default.target
+

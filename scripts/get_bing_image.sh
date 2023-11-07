@@ -69,3 +69,4 @@ nwg-wrapper -t $HOME/wallpaper/bing_name.txt -c $HOME/dotfiles/scripts/bing_name
 
 # Blur existing wallpaper to user later as a lock screen
 #convert $wlpath -filter Gaussian -blur 0x8 -level 10%,90%,0.5 $lswlpath
+echo "success"
