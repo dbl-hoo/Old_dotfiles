@@ -38,7 +38,7 @@ alias dot="cd ~/dotfiles"
 #alias Qtile='startx'
 #alias QtileWayland='qtile start -b wayland'
 # Hyprland with Hyprland
-alias Hyp = Hyprland
+alias hyp="Hyprland"
 # -----------------------------------------------------
 # GIT
 # -----------------------------------------------------
