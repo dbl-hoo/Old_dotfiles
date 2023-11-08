@@ -50,7 +50,7 @@ cp $wlpath ~/.cache/current_wallpaper.jpg
 # ----------------------------------------------------- 
 # Reload waybar with new colors
 # -----------------------------------------------------
-~/dotfiles/waybar/launch.sh
+/home/kirkham/dotfiles/waybar/launch.sh
 
 # set image with swww
 transition_type="wipe"
@@ -69,4 +69,4 @@ nwg-wrapper -t $HOME/wallpaper/bing_name.txt -c $HOME/dotfiles/scripts/bing_name
 
 # Blur existing wallpaper to user later as a lock screen
 #convert $wlpath -filter Gaussian -blur 0x8 -level 10%,90%,0.5 $lswlpath
-echo "success"
+# echo "success"
