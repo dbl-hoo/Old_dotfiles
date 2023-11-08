@@ -35,10 +35,10 @@ alias dot="cd ~/dotfiles"
 # Window Managers
 # -----------------------------------------------------
 
-alias Qtile='startx'
-alias QtileWayland='qtile start -b wayland'
+#alias Qtile='startx'
+#alias QtileWayland='qtile start -b wayland'
 # Hyprland with Hyprland
-
+alias Hyp = Hyprland
 # -----------------------------------------------------
 # GIT
 # -----------------------------------------------------
@@ -74,30 +74,30 @@ alias vmstop='virsh --connect qemu:///system destroy win11'
 # EDIT CONFIG FILES
 # -----------------------------------------------------
 
-alias confq='nvim ~/dotfiles/qtile/config.py'
-alias confp='nvim ~/dotfiles/picom/picom.conf'
-alias confb='nvim ~/dotfiles/.bashrc'
+alias confq='nano ~/dotfiles/qtile/config.py'
+alias confp='nano ~/dotfiles/picom/picom.conf'
+alias confb='nano ~/dotfiles/.bashrc'
 
 # -----------------------------------------------------
 # EDIT NOTES
 # -----------------------------------------------------
 
-alias notes='vim ~/notes.txt'
+alias notes='nano  ~/notes.txt'
 
 # -----------------------------------------------------
 # SYSTEM
 # -----------------------------------------------------
 
 alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
-alias setkb='setxkbmap de;echo "Keyboard set back to de."'
+#alias setkb='setxkbmap de;echo "Keyboard set back to de."'
 
 # -----------------------------------------------------
 # SCREEN RESOLUTINS
 # -----------------------------------------------------
 
 # Qtile
-alias res1='xrandr --output DisplayPort-0 --mode 2560x1440 --rate 120'
-alias res2='xrandr --output DisplayPort-0 --mode 1920x1080 --rate 120'
+#alias res1='xrandr --output DisplayPort-0 --mode 2560x1440 --rate 120'
+#alias res2='xrandr --output DisplayPort-0 --mode 1920x1080 --rate 120'
 
 export PATH="/usr/lib/ccache/bin/:$PATH"
 
