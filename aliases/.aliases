@@ -1,0 +1,62 @@
+# -----------------------------------------------------
+# ALIASES
+# -----------------------------------------------------
+
+alias c='clear'
+alias nf='neofetch'
+alias pf='pfetch'
+alias ls='exa -al'
+alias shutdown='systemctl poweroff'
+alias v='nvim'
+alias ts='~/dotfiles/scripts/snapshot.sh'
+alias matrix='cmatrix'
+alias wifi='nmtui'
+alias od='~/private/onedrive.sh'
+alias rw='~/dotfiles/waybar/reload.sh'
+alias winclass="xprop | grep 'CLASS'"
+alias dot="cd ~/dotfiles"
+
+# -----------------------------------------------------
+# Window Managers
+# -----------------------------------------------------
+
+alias hyp="Hyprland"
+# -----------------------------------------------------
+# GIT
+# -----------------------------------------------------
+
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit -m"
+alias gp="git push"
+alias gpl="git pull"
+alias gst="git stash"
+alias gsp="git stash; git pull"
+alias gcheck="git checkout"
+
+# -----------------------------------------------------
+# SCRIPTS
+# -----------------------------------------------------
+
+alias gr='python ~/dotfiles/scripts/growthrate.py'
+alias ChatGPT='python ~/mychatgpt/mychatgpt.py'
+alias chat='python ~/mychatgpt/mychatgpt.py'
+alias ascii='~/dotfiles/scripts/figlet.sh'
+
+# -----------------------------------------------------
+# EDIT CONFIG FILES
+# -----------------------------------------------------
+
+alias confz='nano ~/dotfiles/zsh/.zshhrc'
+
+# -----------------------------------------------------
+# EDIT NOTES
+# -----------------------------------------------------
+
+alias notes='nano  ~/notes.txt'
+
+# -----------------------------------------------------
+# SYSTEM
+# -----------------------------------------------------
+
+alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
