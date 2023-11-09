@@ -37,7 +37,7 @@
         "custom/waybarthemes",          
         "wlr/taskbar",
         "group/quicklinks",
-        "hyprland/window"
+        "custom/spotify"
     ],
 
     // Modules Center
