@@ -2,7 +2,6 @@
 Description=Bing Wallpaper Update
 
 [Timer]
-OnBootSec=5m
 OnCalendar=*-*-* 05:00:00
 Persistent=true
 
