@@ -2,5 +2,8 @@
 Description=Update Bing Wallpaper
 
 [Service]
-Type=oneshot
+Type=forking
 ExecStart=/home/kirkham/dotfiles/scripts/get_bing_image.sh
+
+[Install]
+WantedBy=bingwallpaper.timer

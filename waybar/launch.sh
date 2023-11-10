@@ -21,21 +21,23 @@ themestyle="/ml4w;/ml4w/light"
 # ----------------------------------------------------- 
 # Get current theme information from .cache/.themestyle.sh
 # ----------------------------------------------------- 
-if [ -f ~/.cache/.themestyle.sh ]; then
-    themestyle=$(cat ~/.cache/.themestyle.sh)
+if [ -f /home/kirkham/.cache/.themestyle.sh ]; then
+    themestyle=$(cat /home/kirkham/.cache/.themestyle.sh)
 else
-    touch ~/.cache/.themestyle.sh
-    echo "$themestyle" > ~/.cache/.themestyle.sh
+    touch /home/kirkham/.cache/.themestyle.sh
+    echo "$themestyle" > /home/kirkham/.cache/.themestyle.sh
 fi
 
 IFS=';' read -ra arrThemes <<< "$themestyle"
 echo ${arrThemes[0]}
 
-if [ ! -f ~/dotfiles/waybar/themes${arrThemes[1]}/style.css ]; then
+if [ ! -f /home/kirkham/dotfiles/waybar/themes${arrThemes[1]}/style.css ]; then
     themestyle="/ml4w;/ml4w/light"
 fi
 
 # ----------------------------------------------------- 
 # Loading the configuration
 # ----------------------------------------------------- 
-waybar -c ~/dotfiles/waybar/themes${arrThemes[0]}/config -s ~/dotfiles/waybar/themes${arrThemes[1]}/style.css &
+waybar -c /home/kirkham/dotfiles/waybar/themes${arrThemes[0]}/config -s /home/kirkham/dotfiles/waybar/themes${arrThemes[1]}/style.css &
+#/usr/bin/waybar -c /home/kirkham/dotfiles/waybar/themes/ml4w/config -s /home/kirkham/dotfiles/waybar/themes/ml4w/style.css &
+#waybar &

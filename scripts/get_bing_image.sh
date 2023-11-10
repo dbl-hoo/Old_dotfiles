@@ -32,7 +32,7 @@ curl "$baseurl$wlurl" -s > $wlpath
 # Ensure no instances of swaybg and nwg-wrapper are already running
 # killall swaybg || true
 killall nwg-wrapper || true
-
+echo "ok"
 # set colors for new wallpaper
 wal -q -i $wlpath
 
@@ -51,6 +51,7 @@ cp $wlpath ~/.cache/current_wallpaper.jpg
 # Reload waybar with new colors
 # -----------------------------------------------------
 /home/kirkham/dotfiles/waybar/launch.sh
+echo "launch"
 
 # set image with swww
 transition_type="wipe"
