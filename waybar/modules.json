@@ -139,7 +139,7 @@
     // Browser Launcher
     "custom/browser": {
         "format": "",
-        "on-click": "vivaldi-stable",
+        "on-click": "chromium",
         "tooltip": false
     },    
 
@@ -167,21 +167,11 @@
     // Rofi Application Launcher
     "custom/appmenu": {
         "format": "Apps",
-        "on-click": "rofi -show drun",
+        "on-click": "rofi -show drun -replace",
         "on-click-right": "~/dotfiles/hypr/scripts/keybindings.sh",
         "tooltip": false
     },
     
-    //Spotify
-    "custom/spotify": {
-    	"exec": "/usr/bin/python3 ~/dotfiles/scripts/mediaplayer.py --player spotify",
-    	"format": "{}  ",
-   	"return-type": "json",
-   	"on-click": "playerctl play-pause",
-   	"on-scroll-up": "playerctl next",
-    	"on-scroll-down": "playerctl previous"
-    },
-
     // Power Menu
     "custom/exit": {
         "format": "",

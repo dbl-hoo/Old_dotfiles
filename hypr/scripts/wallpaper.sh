@@ -48,6 +48,8 @@ echo "Wallpaper: $wallpaper"
 # ----------------------------------------------------- 
 cp $wallpaper ~/.cache/current_wallpaper.jpg
 
+killall nwg-wrapper || true
+
 # ----------------------------------------------------- 
 # get wallpaper iamge name
 # ----------------------------------------------------- 

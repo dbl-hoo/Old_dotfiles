@@ -37,6 +37,7 @@
         "custom/waybarthemes",          
         "wlr/taskbar",
         "group/quicklinks",
+        "hyprland/window"
     ],
 
     // Modules Center
