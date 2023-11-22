@@ -7,14 +7,9 @@ alias nf='neofetch'
 alias pf='pfetch'
 alias ls='exa -al'
 alias shutdown='systemctl poweroff'
-alias v='nvim'
 alias ts='~/dotfiles/scripts/snapshot.sh'
-alias matrix='cmatrix'
 alias wifi='nmtui'
-alias od='~/private/onedrive.sh'
-alias rw='~/dotfiles/waybar/reload.sh'
-alias winclass="xprop | grep 'CLASS'"
-alias dot="cd ~/dotfiles"
+alias dot="cd ~/Dotfiles"
 
 # -----------------------------------------------------
 # Window Managers
